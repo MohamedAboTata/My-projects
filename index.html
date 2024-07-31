@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Inter;
+      }
+      div {
+        color: white;
+
+      }
+      .container {
+        height: 100%;
+        background-color: rgb(18, 18, 18);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        background-color: rgb(38, 38, 38);
+        width: 350px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      .picture_container {
+        width: 75px;
+        margin-bottom: 20px;
+      }
+      .picture_container img {
+        width: 100%;
+        border-radius: 50%;
+      }
+      button {
+        width: 280px;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: rgb(53, 53, 53);
+        border: none;
+        border-radius: 7px;
+        margin-top: 15px;
+        font-family: Inter;
+        cursor: pointer;
+        
+      }
+      button:hover {
+        background-color: rgb(243, 255, 74);
+        color: black;
+      }
+      .name {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .location {
+        color: rgb(244, 255, 90);
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+      .professions {
+        font-size: 13px;
+        color: rgb(191, 191, 191);
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="picture_container">
+          <img src="avatar-jessica.jpeg">
+        </div>
+        <div class="name">Jessica Randall</div>
+        <div class="location">London, United Kingdom</div>
+        <div class="professions">"Front-end developer and avid reader,"</div>
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
+  </body>
+</html>
